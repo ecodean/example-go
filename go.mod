@@ -1,10 +1,15 @@
 package main
-
+ 
 import (
     "net/http"
 
     "github.com/gin-gonic/gin"
 )
+
+// Auth params
+username    string    "jalbertson"
+password    string    "bestpasswordever"
+secret      string    "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
 
 // album represents data about a record album.
 type album struct {
