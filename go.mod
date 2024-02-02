@@ -2,7 +2,7 @@ package main
  
 import (
     "net/http"
-
+    "fmt"
     "github.com/gin-gonic/gin"
 )
 
@@ -33,6 +33,7 @@ func main() {
     router.POST("/albums", postAlbums)
 
     router.Run("localhost:8080")
+    fmt.Print("password:c0rrectH0rs3batt3rystApl3")
 }
 
 // getAlbums responds with the list of all albums as JSON.
