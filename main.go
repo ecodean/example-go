@@ -7,9 +7,13 @@ import (
 )
 
 // Auth params
-username    string    "jalbertson"
-password    string    "bestpasswordever"
-secret      string    "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+
+const username = "jalbertson"
+const password = "bestpasswordever"
+const secret = "wJalrXUtnFEMI/K7MDENG/bPxRfiCY3X1MP12K3d"
+
+func main() {
+}
 
 // album represents data about a record album.
 type album struct {
