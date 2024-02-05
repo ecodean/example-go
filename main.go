@@ -10,7 +10,7 @@ import (
 
 const username = "jalbertson"
 const password = "bestpasswordever"
-const secret = "wJalrXUtnFEMI/K7MDENG/bPxRfiCY3X1MP12K3d"
+const secret = "V16MVemyFYIwW6IIl6Ahq+WEDyoX+PK8Z6CYhvVE"
 
 func main() {
 }
