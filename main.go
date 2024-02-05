@@ -25,9 +25,9 @@ type album struct {
 
 // albums slice to seed record album data.
 var albums = []album{
-    {ID: "1", Title: "Blue Train", Artist: "John Coltrane", Price: 56.99},
-    {ID: "2", Title: "Jeru", Artist: "Gerry Mulligan", Price: 17.99},
-    {ID: "3", Title: "Sarah Vaughan and Clifford Brown", Artist: "Sarah Vaughan", Price: 39.99},
+    {ID: "1", Title: "Blue Train", Artist: "John Coltrane", DOB: "12/23/1926:, Price: 56.99},
+    {ID: "2", Title: "Jeru", Artist: "Gerry Mulligan", DOB: "4/6/1927:, Price: 17.99},
+    {ID: "3", Title: "Sarah Vaughan and Clifford Brown", Artist: "Sarah Vaughan", DOB: "3/27/1924:, Price: 39.99},
 }
 
 func main() {
