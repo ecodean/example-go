@@ -9,7 +9,7 @@ import (
 // Auth params
 
 const username = "jalbertson"
-const password = "bestpasswordever"
+const password = "s7uv98d6iuv79CT&v9u0ouv0"
 const secret = "wJalrXUtnFEMI/K7MDENG/bPxRfiCY3X1MP12K3d"
 
 func main() {
